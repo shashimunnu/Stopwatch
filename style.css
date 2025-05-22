@@ -1,0 +1,106 @@
+ *{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    border: 2px solid rgb(50, 110, 48);
+    border-radius: 10px;
+    background-image: linear-gradient(rgb(228, 220, 220),rgb(126, 145, 123));
+    display: flex;
+    width: 20%;
+    position: relative;
+    margin-top: 10px;
+    left: 40%;
+    justify-content: center;
+    font-size: 50px;
+    color: yellow;
+    text-shadow: 10px 10px 3px  rgba(180, 114, 8, 0.5);
+}
+div img{
+    display:flex;
+    width: 22%;
+    position: relative;
+    left: 38%;
+    filter: invert();
+}
+body{
+    background-image: url(bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    background-color: #295560;
+    width: 40%;
+    min-width: 500px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 0;
+    padding-bottom: 60px;
+    border-radius: 100px 100px 10px 10px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+                rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, 
+                rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.timer-Display{
+    width: 100%;
+    background-image: linear-gradient(#9e9e9e,#979aae);
+    padding: 40px 0;
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    border-radius: 10px 10px 0 0;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+                rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, 
+                rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, 
+                rgba(0, 0, 0, 0.06) 0px 2px 1px, 
+                rgba(0, 0, 0, 0.09) 0px 4px 2px, 
+                rgba(0, 0, 0, 0.09) 0px 8px 4px, 
+                rgba(0, 0, 0, 0.09) 0px 16px 8px, 
+                rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.laps{
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.buttons{
+    width: 85%;
+    margin: 60px auto 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+
+.buttons button{
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #141313;
+    border: none;
+    font-family:  "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, 
+                rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, 
+                rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.buttons button:hover{
+    background-color:#383e51 ;
+    color: #ffffff;
+    border: 3px solid #b6b6b6;
+    padding: 7px 17px;
+    
+}
